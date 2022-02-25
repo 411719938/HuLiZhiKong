@@ -43,7 +43,7 @@ public class HulizhiduController {
      */
     @PutMapping("xiuGaiData")
     public int xiuGaiData(Hulizhidu Hulizhidu) {
-        System.out.println("第一次修改后");
+        System.out.println("第2次修改后");
         return HulizhiduServiceImpl.xiuGaiData(Hulizhidu);
     }
 }
